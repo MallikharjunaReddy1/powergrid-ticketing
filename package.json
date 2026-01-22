@@ -1,0 +1,27 @@
+{
+  "name": "smart-it-decision-layer",
+  "version": "1.0.0",
+  "description": "AI-Powered IT Support Platform for PowerGrid India",
+  "private": true,
+  "scripts": {
+    "dev": "npm run dev --prefix frontend",
+    "dev:fe": "npm run dev --prefix frontend",
+    "dev:be": "npm run dev --prefix backend",
+    "build": "npm run build --prefix frontend",
+    "build:frontend": "npm run build --prefix frontend",
+    "test": "npm run test --prefix frontend",
+    "test:fe": "npm run test --prefix frontend",
+    "docker:build": "docker-compose build",
+    "docker:up": "docker-compose up -d",
+    "docker:down": "docker-compose down",
+    "lint": "npm run lint --prefix frontend",
+    "type-check": "npm run type-check --prefix frontend"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}
